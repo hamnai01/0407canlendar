@@ -61,7 +61,7 @@ public class make_calendar {
    }
    
    
-   //입력받은 달의 시작요일, 마지막날짜 구하기..
+   //입력받은 달의 시작요일, 마지막날짜 구하기.....
    public void make_calendar( int month, int year) {
       
       Calendar cal = Calendar.getInstance();
