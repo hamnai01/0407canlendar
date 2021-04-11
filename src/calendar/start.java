@@ -20,9 +20,10 @@ public class start {
       System.out.println("월 입력");   
       month = sc.nextInt();
       
+      
+      //다른클래스의 메소드들 실행시킴
       make_calendar body = new make_calendar();   
       body.calendar_head(month, year);
-      
       body.make_calendar(month-1, year);
       body.make_calendar(month, year);
       body.make_calendar(month+1, year);
